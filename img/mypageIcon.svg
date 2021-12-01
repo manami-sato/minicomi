@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49">
+  <g id="グループ_54" data-name="グループ 54" transform="translate(-336 -825)">
+    <g id="人物アイコン" transform="translate(346 825)">
+      <path id="パス_7" data-name="パス 7" d="M48.843,307.693a9.249,9.249,0,0,1-6.023,0c-6.885,1.157-10.489,6.337-10.489,12.623h27C59.331,314.03,55.728,308.85,48.843,307.693Z" transform="translate(-32.331 -290.316)" fill="#ced7d9"/>
+      <path id="パス_8" data-name="パス 8" d="M140.82,17.274a7.409,7.409,0,0,0,7.244-7.564V7.564a7.251,7.251,0,1,0-14.489,0V9.71A7.409,7.409,0,0,0,140.82,17.274Z" transform="translate(-127.32)" fill="#ced7d9"/>
+    </g>
+    <text id="マイページ" transform="translate(336 873)" fill="#ced7d9" font-size="10" font-family="HiraginoSans-W6, Hiragino Sans"><tspan x="0" y="0">マイページ</tspan></text>
+  </g>
+</svg>

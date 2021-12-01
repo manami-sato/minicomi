@@ -1,0 +1,146 @@
+.comicsMain {
+    position: relative;
+    z-index: 0;
+    width: 100vw;
+    /* height: 56.5rem; */
+    height: calc(100vh - 245px);
+    overflow: scroll;
+    padding: 2.2rem 0 2.2rem 0;
+}
+
+.Searchinput {
+    position: relative;
+    width: 37.8rem;
+    height: 3.4rem;
+    margin: 0 auto;
+}
+
+.Searchinput a{
+    display: block;
+    position: absolute;
+    top: 0.9rem;
+    left: 1.0rem;
+    z-index: 10;
+}
+/* .Searchinput img {
+    position: absolute;
+    top: 0.9rem;
+    left: 1.0rem;
+} */
+
+.Searchinput input {
+    position: relative;
+    width: 37.8rem;
+    height: 100%;
+    border: #D9D9D9 solid 0.1rem;
+    padding: 0 0 0 3.4rem;
+}
+
+.headTxt{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+/* comicsSearch__popular */
+.comicsSearch__popular {
+    width: 37.8rem;
+    margin: 0 auto;
+    margin-top: 4.4rem;
+}
+
+.popularBox {
+    width: 100%;
+    height: 19.8rem;
+    overflow: scroll;
+    margin: 1.0rem 0 0 0;
+    overflow-x: auto;
+	white-space: nowrap;
+}
+
+.popularBox__content {
+    display: inline-block;
+    cursor: pointer;
+    width: 11.2rem;
+    height: 17.2rem;
+    margin: 0 0.8rem 0 0;
+}
+
+.popularBox__content div {
+    width: 100%;
+    height: 14.4rem;
+    background: #D0D0D0;
+}
+
+.popularBox__content h4{
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.popularBox__content p{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #C6C6C6;
+}
+/* comicsSearch__popular */
+
+/* comicsSearch__genre */
+.comicsSearch__genre {
+    width: 37.8rem;
+    margin: 0 auto;
+    padding: 2.0rem 0 0 0;
+}
+
+.genreBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2.0rem 0 0 0
+}
+
+.genreBox__content {
+    width: 15.0rem;
+    margin: 0 0 2.0rem 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.genreBox__content img {
+    margin: 0 0.8rem 0 0
+}
+
+.genreBox__content h4 {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+/* comicsSearch__genre */
+
+/* comicsSearch__magazine */
+.comicsSearch__magazine {
+    width: 37.8rem;
+    margin: 0 auto;
+    padding: 2.0rem 0 0 0;
+}
+
+.magazineBox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2.0rem 0 0 0;
+}
+
+.magazineBox__content {
+    width: 17.2rem;
+    height: 4.6rem;
+    border: #A2A2A2 solid 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0.6rem 0;
+}
+
+.magazineBox__content h4 {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+/* comicsSearch__magazine */

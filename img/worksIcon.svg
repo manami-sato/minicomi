@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="55" viewBox="0 0 32 55">
+  <g id="グループ_53" data-name="グループ 53" transform="translate(-267 -819)">
+    <g id="グループ_12" data-name="グループ 12" transform="translate(-98.703 801.076)">
+      <rect id="長方形_59" data-name="長方形 59" width="20" height="37" rx="2" transform="translate(371.703 17.925)" fill="#ced7d9"/>
+      <rect id="長方形_60" data-name="長方形 60" width="16.916" height="28.22" transform="translate(373.245 22.315)" fill="#fff"/>
+      <path id="パス_9" data-name="パス 9" d="M392.68,22.329h-3.557a.185.185,0,1,1,0-.37h3.557a.185.185,0,1,1,0,.37Z" transform="translate(-9.072 -2.254)" fill="#fff"/>
+      <circle id="楕円形_4" data-name="楕円形 4" cx="1.226" cy="1.226" r="1.226" transform="translate(380.604 51.524)" fill="#fff"/>
+    </g>
+    <text id="バイト" transform="translate(267 873)" fill="#ced7d9" font-size="10" font-family="HiraginoSans-W6, Hiragino Sans" letter-spacing="0.105em"><tspan x="0" y="0">バイト</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,194 @@
+header {
+  height: 55px;
+  width: 100%;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.comic__header--back {
+  width: 10px;
+  height: 15px;
+  position: relative;
+}
+.comic__header--back::before,
+.comic__header--back::after {
+  content: "";
+  display: block;
+  background: #06b7ea;
+  width: 10px;
+  height: 2px;
+  border-radius: 1px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.comic__header--back::before {
+  transform: rotateZ(-45deg);
+  top: -6px;
+  bottom: 0;
+}
+.comic__header--back::after {
+  transform: rotateZ(45deg);
+  top: 0;
+  bottom: -6px;
+}
+/* -----------------------------
+コミックheadここから
+----------------------------- */
+.comic__head {
+  height: 150px;
+  width: 90%;
+  margin: 0 auto 50px;
+  display: flex;
+}
+.comic__head--img {
+  width: 120px;
+  height: 150px;
+  background: #d0d0d0;
+  margin-right: 10px;
+}
+.comic__head section div {
+  font-size: 0.8rem;
+}
+.comic__head h1 {
+  font-size: 1.4rem;
+}
+/* -----------------------------
+コミックheadここまで
+----------------------------- */
+/* -----------------------------
+コミックtabここから
+----------------------------- */
+.comic__tab {
+  border-bottom: #ced7d9 1px solid;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+.comic__tab > * {
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 1.6rem;
+  width: 50%;
+  height: 100%;
+}
+.comic__tab--this {
+  position: relative;
+}
+.comic__tab--this::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background: #06b7ea;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.comic__tab--other {
+  color: #ced7d9;
+  display: block;
+}
+/* -----------------------------
+コミックtabここまで
+----------------------------- */
+/* -----------------------------
+コミックlistここから
+----------------------------- */
+.comic__tab + div {
+  padding: 5px 0;
+  height: 345px;
+  overflow: scroll;
+}
+.comic__list {
+  display: flex;
+  width: 90%;
+  margin: 10px auto 0;
+  position: relative;
+}
+.comic__list::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: calc(100% - 100px);
+  background: #ced7d9;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.comic__list--img {
+  background: #d0d0d0;
+  margin-right: 10px;
+}
+.comic__list--data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(90vw - 100px);
+  margin-bottom: 10px;
+}
+.comic__list--get {
+  display: flex;
+}
+.comic__list--get a {
+  border-radius: 3px;
+  color: #fff;
+  font-weight: bold;
+  padding: 3px 10px;
+  display: flex;
+  font-size: 1.2rem;
+}
+.comic__list--get a span:first-child {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.comic__list--get a span:first-child::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: url("../img/comic_price.svg") no-repeat;
+  background-size: contain;
+  margin: 0 3px 0 0;
+}
+.comic__get--buy {
+  background: #06b7ea;
+  margin-right: 5px;
+}
+.comic__get--rental {
+  background: #5dd0f1;
+}
+/* -----------------------------
+コミックlistここまで
+----------------------------- */
+/* -----------------------------
+epここから
+----------------------------- */
+.comic__list--ep .comic__list--img {
+  width: 90px;
+  height: 60px;
+}
+.comic__list--ep .comic__list--data {
+  height: 60px;
+}
+/* -----------------------------
+epここまで
+----------------------------- */
+/* -----------------------------
+volここから
+----------------------------- */
+.comic__list--vol .comic__list--img {
+  width: 85px;
+  height: 108px;
+}
+.comic__list--vol .comic__list--data {
+  height: 105px;
+}
+/* -----------------------------
+volここまで
+----------------------------- */

@@ -1,0 +1,120 @@
+.result__wrap {
+  height: calc(100vh - 300px);
+  padding: 20px 0;
+  overflow: scroll;
+}
+/* -----------------------------
+検索ヘッダーここから
+----------------------------- */
+.result__search{
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #D9D9D9;
+	padding: 15px 5%;
+}
+/* ----------- 漫画 ---------- */
+.result__search--back{
+	width: 10px;
+	height: 15px;
+	position: relative;
+}
+.result__search--back::before,
+.result__search--back::after{
+	content: "";
+	display: block;
+	background:#06B7EA;
+	width: 10px;
+	height: 2px;
+	border-radius: 1px;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.result__search--back::before{
+	transform: rotateZ(-45deg);
+	top: -6px;
+	bottom: 0;
+}
+.result__search--back::after{
+	transform: rotateZ(45deg);
+	top: 0;
+	bottom: -6px;
+}
+
+.result__search--magazine{
+	font-size: 1.6rem;
+	margin: 0 auto;
+}
+/* ----------- 検索 ---------- */
+.result__search form{
+	width: 280px;
+	height: 35px;
+	border-radius: 5px;
+	border:#D9D9D9 solid 1px;
+	display: flex;
+	align-items: center;
+	padding:0 10px;
+	margin-right: 15px;
+}
+.result__search--enter{
+	margin-right: 7px;
+}
+.result__search--cancel{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	background:#D9D9D9 ;
+	margin: 0 0 0 auto;
+	position: relative;
+}
+.result__search--cancel::before,
+.result__search--cancel::after{
+	content: "";
+	display: block;
+	background:#fff ;
+	width: 10px;
+	height: 2px;
+	border-radius: 1px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.result__search--cancel::before{
+	transform: rotateZ(45deg);
+}
+.result__search--cancel::after{
+	transform: rotateZ(-45deg);
+}
+/* -----------------------------
+検索ヘッダーここまで
+----------------------------- */
+/* -----------------------------
+漫画リストここから
+----------------------------- */
+.result__list {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 15px;
+}
+.result__list--img {
+  width: 90px;
+  height: 120px;
+  background: #d0d0d0;
+  margin-right: 15px;
+}
+.result__list--ttl {
+  font-weight: normal;
+  font-size: 1.4rem;
+  margin-top: 20px;
+}
+.result__list--author {
+  color: #d0d0d0;
+}
+/* -----------------------------
+漫画リストここまで
+----------------------------- */

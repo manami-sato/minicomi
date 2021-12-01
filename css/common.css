@@ -1,0 +1,134 @@
+html{
+    font-size: 62.5%;
+}
+html,body{
+    height: 100%;
+    width: 100vw;
+}
+body{
+    font-family: 'ヒラギノ角ゴシック', 'Noto Sans JP', sans-serif;
+}
+
+.solid {
+    width: 90%;
+    height: 1px;
+    background: #C6C6C6;
+    margin: 0.5rem 0;
+    margin: 0 auto;
+}
+
+/* head */
+.mainHead {
+    width: 100vw;
+}
+
+.mainHead__title {
+    text-align: center;
+    width: 100%;
+    height: 5.6rem;
+    background: #06B7EA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainHead__title h1 {
+    color: #fff;
+    font-size: 2.0rem;
+    font-weight: 300;
+}
+
+
+.mainHead__btns {
+    margin: 4.4rem 0 0 0;
+    width: 100%;
+    height: 5.0rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #00B9E8 0.2rem solid;
+}
+
+.genreSearch {
+    width: 20.5rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #00B9E8 0.2rem  solid;
+    border-bottom: none;
+    cursor: pointer;
+}
+
+.genreSearch h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.comicsSearch {
+    background: #00B9E8;
+    color: #fff;
+}
+
+.worksSearch {
+    color: #00B9E8;
+}
+
+/* footNav */
+.mainFoot {
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 9.5rem;
+    box-shadow: 0px -7px 8px -7px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+
+.mainFoot__nav {
+    width: 100%;
+    height: 100%;
+}
+
+.icons {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon {
+    width: 5.5rem;
+    height: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+/* -----------------------------
+全体設定ここから
+----------------------------- */
+/*
+		メイン　#06B7EA
+		アクセント #000
+		ベース #fff
+*/
+/* html{
+	font-size: 62.5%;
+} */
+a{
+	color: #000;
+	text-decoration: none;
+}
+li{
+	list-style-type:none ;
+}
+main{
+    height: calc(100vh - 9.5rem);
+    overflow: scroll;
+  }
+/* -----------------------------
+全体設定ここまで
+----------------------------- */

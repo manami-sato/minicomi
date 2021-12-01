@@ -1,0 +1,135 @@
+html{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.recomend{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    font-size: 1.4rem;
+    margin: 0;
+}
+.box{
+    padding: 0 15px;
+    width: 356px;
+    margin: 15px auto 0 auto;
+    border: solid #06B7EA 1px;
+    border-radius: 5px;
+}
+.text{
+    padding: 0;
+    margin: 10px 0;
+}
+.company{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    position: relative;
+    margin: 5px 0;
+}
+.company::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #EBEEEF;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.info{
+    color: #06B7EA;
+    line-height: 5px;
+    margin-top: 45px;
+
+}
+.price{
+    font-size: 1.4rem;
+    position: relative;
+    margin:0 0 0 15px ;
+}
+.price::before{
+    content: "";
+    display: flex;
+    width: 10px;
+    height: 10px;
+    /* background-color: tomato; */
+    background-image: url("../img/Icon ionic-logo-yen.svg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -15px;
+    margin: auto 5px auto 0;
+}
+.time{
+    font-size: 1.4rem;
+    position: relative;
+    margin:0 0 0 15px ;
+    /* relateveをかけてそのまま擬似要素を入れたいところに余白を設定 */
+}
+.time::before{
+    content: "";
+    display: flex;
+    width: 10px;
+    height: 10px;
+    /* background-color: tomato; */
+    background-image: url("../img/Icon ionic-ios-time.svg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -15px;
+    margin: auto 5px auto 0;
+    /* absoluteをかけてmargin分ずらして左揃えに見えるように設定 */
+}
+.info p{
+    line-height: 1.4rem;
+}
+.save{
+    color: #06B7EA;
+    width: 60px;
+    height: 30px;
+    border: solid #06B7EA 1px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0 0 0;
+}
+.save::before{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-image: url("../img/bookmark.svg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0 5px 0 0;
+}
+.companyname{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+.companyimg{
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/companyimg.svg");
+    margin-right: 5px;
+}
+
+
+main{
+    padding: 30px 0;
+    height: calc(100vh - 125px);
+}

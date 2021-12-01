@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="49" viewBox="0 0 29 49">
+  <g id="グループ_83" data-name="グループ 83" transform="translate(-117 -1116)">
+    <path id="Icon_ionic-ios-search" data-name="Icon ionic-ios-search" d="M33.16,31.394l-8.066-8.139a11.495,11.495,0,1,0-1.745,1.767l8.013,8.086a1.241,1.241,0,0,0,1.752.045A1.249,1.249,0,0,0,33.16,31.394Zm-17.1-6.274a9.075,9.075,0,1,1,6.419-2.658A9.021,9.021,0,0,1,16.062,25.12Z" transform="translate(112.5 1111.507)" fill="#ced7d9"/>
+    <text id="検索" transform="translate(122 1164)" fill="#ced7d9" font-size="10" font-family="HiraginoSans-W6, Hiragino Sans" letter-spacing="0.105em"><tspan x="0" y="0">検索</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,165 @@
+.headTxt{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.worksDetail {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    /* height: 661px; */
+    height: calc(100vh - 150px);
+    overflow: scroll;
+    padding: 2.2rem 0 2.2rem 0;
+}
+
+.worksDetail__title {
+    width: 37.8rem;
+    margin: 0 auto;;
+}
+
+.tag {
+    width: 10.0rem;
+    height: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #06B7EA;
+    border-radius: 0.5rem;
+    margin: 0 0 1.2rem 0;
+}
+
+.tag p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.worksDetail h2 {
+    font-size: 1.8rem;
+    width: 37.8rem;
+    margin: 0 auto;;
+}
+
+.worksDetail__works {
+    width: 37.8rem;
+    margin: 0 auto;
+    padding: 2.7rem 0 0 0;
+    padding: 2.0rem 0 2.0rem 0
+}
+
+.worksDetail__works h3 {
+    font-size: 1.6rem;
+}
+
+.worksBox {
+    margin: 2.6rem 0 0 0;
+}
+
+.worksBox tr {
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #7E949A;
+}
+
+.worksBox tr th{
+    font-weight: 300;
+}
+
+.worksBox tr td {
+    padding: 0 0 0 3.0rem;
+}
+
+.worksDetail__txt {
+    width: 37.8rem;
+    margin: 0 auto;
+    padding: 2.7rem 0 2.0rem 0;
+}
+
+.txtBox {
+    margin: 2.0rem 0 0 0;
+}
+
+.txtBox p {
+    font-size: 1.2rem;
+    line-height: 2.0rem;
+    color: #7E949A;
+    text-align: left;
+}
+
+.worksDetail__company {
+    width: 37.8rem;
+    margin: 0 auto;
+    padding: 2.7rem 0 2.0rem 0;
+}
+
+.companyBox {
+    display: flex;
+    margin: 1.8rem 0 0 0;
+}
+
+.companyBox__img {
+    width: 7.0rem;
+    height: 7.0rem;
+    background: #D9D9D9;
+    margin: 0 0.6rem 0 0;
+}
+
+.companyBox__content p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #7E949A;
+}
+
+.companyBox__content__head {
+    font-size: 1.4rem;
+}
+
+.companyBox__content__txt span{
+    color: #06B7EA;
+}
+
+.worksDetail__similar {
+    width: 37.8rem;
+    margin: 0 auto;
+    padding: 2.7rem 0 0 0;
+}
+
+
+
+.mainHead__title{
+    position: relative;
+}
+.worksDetail__header--back{
+	width: 10px;
+	height: 15px;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 5%;
+}
+.worksDetail__header--back::before,
+.worksDetail__header--back::after{
+	content: "";
+	display: block;
+	background:#fff;
+	width: 10px;
+	height: 2px;
+	border-radius: 1px;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.worksDetail__header--back::before{
+	transform: rotateZ(-45deg);
+	top: -6px;
+	bottom: 0;
+}
+.worksDetail__header--back::after{
+	transform: rotateZ(45deg);
+	top: 0;
+	bottom: -6px;
+}

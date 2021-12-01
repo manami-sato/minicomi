@@ -1,0 +1,87 @@
+/* -----------------------------
+h1ここから
+----------------------------- */
+h1 {
+  width: 100%;
+  height: 190px;
+  overflow: hidden;
+}
+
+.index__head{
+  display: flex;
+  height: 100%;
+}
+.index__head--list{
+  width: 100%;
+  height: 100%;
+}
+/* -----------------------------
+h1ここまで
+----------------------------- */
+/* -----------------------------
+カテゴリここから
+----------------------------- */
+.index__category {
+  margin: 0 0 50px;
+}
+.index__category--headline {
+  font-size: 1.6rem;
+  font-weight: normal;
+  width: calc(100% - 40px);
+  margin: 0 auto 10px;
+}
+.index__category--list {
+  margin: 0 0 0 20px;
+  display: flex;
+  width: 95%;
+  overflow: scroll;
+}
+.index__category:nth-child(2){
+	margin:50px 0 50px ;
+}
+.index__category:last-child{
+	margin:0 0 80px ;
+}
+.index__category:last-child .index__category--list {
+  margin: 0 auto;
+  width: calc(100% - 40px);
+  flex-wrap: wrap;
+}
+/* -----------------------------
+カテゴリここまで
+----------------------------- */
+/* -----------------------------
+バナーここから
+----------------------------- */
+.index__bunner{
+	display: block;
+	margin-bottom: 50px;
+}
+/* -----------------------------
+バナーここまで
+----------------------------- */
+/* -----------------------------
+コミックそれぞれここから
+----------------------------- */
+.index__comic {
+  margin: 0 4px 10px 0;
+}
+.index__comic:last-child {
+  margin-right: 20px;
+}
+.index__comic--img {
+  width: 120px;
+}
+.index__comic--img img {
+  width: 100%;
+}
+.index__comic--ttl {
+  font-size: 1.4rem;
+}
+.index__comic--category {
+  font-size: 0.8rem;
+  color: #c6c6c6;
+}
+/* -----------------------------
+コミックそれぞれここまで
+----------------------------- */
